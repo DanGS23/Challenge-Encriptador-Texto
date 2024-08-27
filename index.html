@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header__logo">
+            <img src="./assets/Logo.png" alt="LOGO">
+            <!-- <p>Encriptador de Texto</p> -->
+        </div>
+    </header>
+    <main class="contenedor">
+        <section class="contenedor__left">
+                <textarea name="encriptar" id="encriptar" placeholder="Ingrese el texto aquí..."></textarea>
+                <div class="contenedor__left__mensaje">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"><path fill="black" d="M2.93 17.07A10 10 0 1 1 17.07 2.93A10 10 0 0 1 2.93 17.07M9 5v6h2V5zm0 8v2h2v-2z"/></svg>
+                    <p>Solo letras minisculas y sin acentos</p>
+                </div>
+                <div class="contenedor__left__button">
+                    <button class="contenedor__left__button__encriptar">Encriptar</button>
+                    <button class="contenedor__left__button__desencriptar">Desencriptar</button>
+                </div>
+        </section>
+        <section class="contenedor__right">
+            <div class="contenedor__right__p" class="contenedor__left__button">
+            <textarea name="desencriptar" id="desencriptar"></textarea>
+                <img src="./assets/Muñeco.png" alt="referecia">
+                <p class="contenedor__right__mensaje">Ningun mensaje fue encontrado</p>
+                <p class="contenedor__right__mensaje__aux">Ingrese el texto que desees encriptar o desencriptar</p>
+                <button class="contenedor__right__button"> Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Creado por Daniel Gonzalez ®</p>
+    </footer>
+</body>
+</html>
